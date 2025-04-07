@@ -35,8 +35,7 @@ const CallToAction = ({ finalMessage }) => {
         transition={{ delay: 0.2, duration: 0.6 }}
       >
         <p className="font-semibold">
-          Tap on the button below to make a quick call & that's it. You'll be
-          qualified on the call by a licensed agent in minutes 👇
+         Tap on the button below to make a quick call & that's it. You'll be qualified on the call by a licensed agent in minutes 👇
         </p>
       </motion.div>
 
