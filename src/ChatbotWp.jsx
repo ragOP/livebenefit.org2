@@ -68,7 +68,7 @@ export default function Chatbot() {
       }, (delay += 1500));
     });
   };
-
+// sds
   const handleOptionClick = (option) => {
     if (option === "👉 Yes! Show me how to claim!") {
         window.open(
