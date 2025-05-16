@@ -176,7 +176,7 @@ export default function Chatbot() {
           "url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png')",
       }}
     >
-      <div className="bg-[#09005e] text-white p-4 flex items-center gap-2 shadow-md sticky top-0 right-0 left-0 z-10 h-16">
+      <div className="bg-[#3423cf] text-white p-4 flex items-center gap-2 shadow-md sticky top-0 right-0 left-0 z-10 h-16">
         <img
           src={agent}
           alt="Psychic Master"
@@ -279,7 +279,7 @@ export default function Chatbot() {
               onChange={(e) => setInputValue(e.target.value)}
             />
             <button
-              className="px-5 py-4 bg-[#09005e] text-white rounded-2xl"
+              className="px-5 py-4 bg-[#3423cf] text-white rounded-2xl"
               onClick={handleSendInput}
             >
               <SendHorizontalIcon className="w-6 h-6" />
@@ -291,7 +291,7 @@ export default function Chatbot() {
             {currentOptions.map((option, i) => (
               <button
                 key={i}
-                className="px-6 py-3 bg-[#09005e] text-white rounded-full text-lg"
+                className="px-6 py-3 bg-[#3423cf] text-white rounded-full text-lg"
                 onClick={() => handleOptionClick(option)}
               >
                 {option}
